@@ -1,0 +1,226 @@
+{
+    "formatted_address": "463 Blossom Hill Rd unit f, San Jose, CA 95123, USA",
+    "formatted_phone_number": "(408) 629-8535",
+    "geometry": {
+        "location": {
+            "lat": 37.2523802,
+            "lng": -121.8328226
+        },
+        "viewport": {
+            "northeast": {
+                "lat": 37.25368998029149,
+                "lng": -121.8314081197085
+            },
+            "southwest": {
+                "lat": 37.25099201970849,
+                "lng": -121.8341060802915
+            }
+        }
+    },
+    "name": "New K&E Auto Repair",
+    "opening_hours": {
+        "open_now": false,
+        "periods": [
+            {
+                "close": {
+                    "day": 1,
+                    "time": "1800"
+                },
+                "open": {
+                    "day": 1,
+                    "time": "0900"
+                }
+            },
+            {
+                "close": {
+                    "day": 2,
+                    "time": "1800"
+                },
+                "open": {
+                    "day": 2,
+                    "time": "0900"
+                }
+            },
+            {
+                "close": {
+                    "day": 3,
+                    "time": "1800"
+                },
+                "open": {
+                    "day": 3,
+                    "time": "0900"
+                }
+            },
+            {
+                "close": {
+                    "day": 4,
+                    "time": "1800"
+                },
+                "open": {
+                    "day": 4,
+                    "time": "0900"
+                }
+            },
+            {
+                "close": {
+                    "day": 5,
+                    "time": "1800"
+                },
+                "open": {
+                    "day": 5,
+                    "time": "0900"
+                }
+            },
+            {
+                "close": {
+                    "day": 6,
+                    "time": "1800"
+                },
+                "open": {
+                    "day": 6,
+                    "time": "0900"
+                }
+            }
+        ],
+        "weekday_text": [
+            "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+            "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+            "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+            "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+            "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+            "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+            "Sunday: Closed"
+        ]
+    },
+    "photos": [
+        {
+            "height": 1702,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/112443114858006555760\">New K&amp;E Auto Repair</a>"
+            ],
+            "photo_reference": "AWn5SU6q9lZKpOQBFddtkeyZ77YQj5x_pEznnpCo0bipEtygOKJ23wBT9Cank9J9_fhpDVi3SD922_pXGeOUotaRpdmVg772hTTPs16C4LyerC_IxfG0u7GhF-E5MaOFMB5Ckt7s3HomwkzgpuPcuTcmfO7fycLNnMYB0NHcC6iEULwp85HtnD1xjCLIjkcNz1brZ_MWKJGBy7F8xMUExcxFLc0f303FksAmqC7BvmvbyQgTSHtLOz5C5J0sURDhfV-r62LtqBFUhwGQlmT6vlqls4zVDbrypNKs8dXbk07sQcgEEQ",
+            "width": 3024
+        },
+        {
+            "height": 1702,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/112443114858006555760\">New K&amp;E Auto Repair</a>"
+            ],
+            "photo_reference": "AWn5SU6atkMxj4ZCxB9Ee1eJ5u5FIKUUaWJrAYnoy_lFT-ZO2Vmks59aZOxsaQqpoit7MJcNmzoZVcyW7PuX8OTqhtCZ0Sd9VbMRuQJyAlBlFoXf1d4dXJZfV4pQb6naJ9TfuJVEtJSrkif2It1eje-albLbwLEljsT-BNc-aDGdT3FZXLoZCOh3NlsRmBD4GBkMvYWvGB8imyd6kumlAXxM8xoKtvqdotbHFG7MzLo52xwtK5GAj90IDWklVOjJFnBtyYyn4qcImDWXo_cIxquv5EIhSyLx2OXJD7UfvAkoNZ4ZNg",
+            "width": 3024
+        },
+        {
+            "height": 3024,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/112443114858006555760\">New K&amp;E Auto Repair</a>"
+            ],
+            "photo_reference": "AWn5SU4Wk86aFY4wkTu5S6i2qy_gyTMTJjzr7iNbmskiA-qnZEJnOaomqLtqpTohEbvLcxg15h7tGqwRFzHDxd2l-EXny8a2uYWdVcb5cufa5a4f8RbMP43XRHYYsHpMoQiVsGhgymXTBhETGMed79wbuJmeiwYGOKptjXIa_-oe7x3vz8HQfTEHfWojXTM_IRKKRDl7AMMy1wuUGVx7Vmpwh7djLV2NYXQlTX1W4J880kz7NAL401QqyzwreIsQpjPFS_xfe7vuDbofriKQI2sLTrBZq6jGXBS5oyNM6SN2rNW_Bg",
+            "width": 4032
+        },
+        {
+            "height": 4032,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/112443114858006555760\">New K&amp;E Auto Repair</a>"
+            ],
+            "photo_reference": "AWn5SU6Nk03atfqOI0EkQEj6PYqnySOuDT3A0Mh6UaRsUXY0dVjxXcxCrAon3uswzamWDQT_UQYitPIoVGoz3kqGaVqNckb_Wny1ujJlLPCUmaAD4xp-futF_IcebcQBVYy4SRfzHayZdv7FUbJ8j8_VKG2_UYr9zlNHxfannAjHjmW2cIKU7CNreXPsSrgVe1yCLdHCF-ZzO0xBHrBuigRgprNSzuf2fcHfFSJXpfIa8ie2g60ZaGTubeqXsD_cyAiUYfc7Q1e3PJ1_DXu1g9JGMWpQ8dp51fOC-U2aCAL04CBGWw",
+            "width": 3024
+        },
+        {
+            "height": 3072,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/111020690906135409710\">Oskar Aria Attar</a>"
+            ],
+            "photo_reference": "AWn5SU6tRwdHs-mlRAxzUZSuU-1JFP-jve4GnC3mEGqUp2Csmw-CJRGX0W3P-bsm-a2dMe2EiJab6o2-wm_y5BXNjtV4o6_eVpzwAogS-XrcEOiwnWfgb3TuO49KAcC-CYdT3q7A9G6DzsQqZU7B6mPTKdjLJiRAZkGw-LJcJPYFy_Aph0VTVeGG5MymaeHLVhgK-EUcp6YpXpzo0MhJvj5kiHO9XA082n27VhmS-9V_dSSv5IDnLNkJQpn-Cyz2c3mzqB_SUIWvT_kdLY8eT_ewBmZ26KcLTL2SdcWVNzc2KJqWtGV5ruqTfFBEaxio5_1lhNZ5abhpCjPJ__baMeO30hnPI5IpPO9ykT8FdLGBaFSxE_XbeVKnpcWrtCgT28DMd0ogPsHLCs8oZXZceAzZ3uRpKI2PPPVsS7RqCCOYE2AbJw",
+            "width": 4080
+        },
+        {
+            "height": 4800,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/114188345424860723568\">Guts</a>"
+            ],
+            "photo_reference": "AWn5SU4D9fMZRmIqMwIy7ZzVqPUHWZQbJg6K-XyHbJApJVSoWOBjjtMI98xlcbrTynoaEQ6azb-hWfValobk-FGOR0-82hNQPaer5nr9QX60BLqNpbTbdSSgwC7G0hn3AulEXtVXdvKhiiuRl8qAVJo3hyEeYM_42U-MlbhKMNL5Yk-BFBhbLO4J4FnT_fc7lbP_grSik7LoMttmZMRUMgQlIvIqcIWHKMHWsmuh22D988xmbIlN_j3ZBwzD8oHTPL2cqragMWXzs8WZtx3HFzkFzltVWMCe_S3fykUGmePNUG1EXI0sc9OafQEfbkUYXdNTGJpoUCxSvhP5fwFk9R7wf8HMNZCqRIuFKGph9CWsvaftlLVkGe8OBRStiAKAwxpT5XgD-JWZOm8EY8WznXEnssOATmZcxkkEEqlp3_-clkZkF6ZF",
+            "width": 3600
+        },
+        {
+            "height": 4032,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/112443114858006555760\">New K&amp;E Auto Repair</a>"
+            ],
+            "photo_reference": "AWn5SU75qLuXHyUaizApL22B2E_PvXLaIApGvpwKtul3oZN_PklujWD1BUUkEEziPRUAxU7Rl-urWojdVVM79S-veGMnx3GjC7BGiz_Bul8IA-c4GqgfeAO1Hg2DCN-H_BzAGDBQURfrO85g5_ciIg0AiCEcIhT39TYLKH1b1HPmcyA2nFU_3qOifbBRpdVTrpKl_x9Gxv8FKd_qVWkLoTUVG_tLggGblFhpJc9Lv1DQRklsKFEGlTvekR7drTQ12zfBRXzIpPFxf9VUdSbj59COYxsjbXV_jRN78KmzbnvqspTfqA",
+            "width": 3024
+        },
+        {
+            "height": 3024,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/112443114858006555760\">New K&amp;E Auto Repair</a>"
+            ],
+            "photo_reference": "AWn5SU7xGsP0dvA6KnLT7k7Sbv50WjEFHwVof-b_ruEVaKvD1hkhD7g2wZfIG47Xyub01Jpyn1WzD36QAFW2M7dwRPKHINnml6oS7jRmQOBOQAQCi7vodpgapOcEJvREBGfSKkUeqpGTHsAoTGvZjwZSi_G86LPoF7NdKbu1rTDyAmYnXrOzt2CZ3zK9pJ6ja_vBt-nyDHpovvwOoi2AyO4DMwnjE5-KUJQ8_tedUEoZQMSynN2J2UsMI5jVY8NJXDV8_eQ2qLagSptv9o7oIVJT1mepxexp7oqYFJ3V_7QrD5ushw",
+            "width": 4032
+        }
+    ],
+    "rating": 4.7,
+    "reviews": [
+        {
+            "author_name": "Guts",
+            "author_url": "https://www.google.com/maps/contrib/114188345424860723568/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUM5nkAu7O2vatDthweD5lUa1IE_bm2uIBtHuKhNHaMO5q5fWBF=s128-c0x00000000-cc-rp-mo",
+            "rating": 1,
+            "relative_time_description": "a year ago",
+            "text": "Had a flat tire and had this guy work on it. Next day tire was flat again. Turns out he had patched one of the holes, but there was still another one unaccounted for. Mistakes happen I totally get it.\n\nThe reason why I\u2019m writing this review though is because when I went back with my dad to see what we could do, the same guy basically shook us off and came up with excuses. Didn\u2019t even wanna help us because it was a \u201cwaste of time\u201d. No apology or anything. He just gave us some money back and blew us off.\n\nI went to a different place and the first thing those kind folks said about the wheel was that it was damaged, wasn\u2019t safe to drive in, and it needed to be replaced and helped us out no problem. Lol\n\nWould have been nice if this place told us ahead of time that they don\u2019t know how to work with tires; that way no one\u2019s time would have been wasted.",
+            "time": 1718497961,
+            "translated": false
+        },
+        {
+            "author_name": "Bethany Peri",
+            "author_url": "https://www.google.com/maps/contrib/108745683587330855365/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWzq55psWyL2sHIaTlR2avDE4nSomD92J36JxORBzGpAVmNS2iO=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "8 months ago",
+            "text": "Best mechanic I\u2019ve ever went to. Honest and the shop is so clean. Ive recommend this place to everyone I know. Doesn\u2019t do unnecessary work and always get in within the week. Great guy great place!!",
+            "time": 1744045674,
+            "translated": false
+        },
+        {
+            "author_name": "Yvonne Jasso",
+            "author_url": "https://www.google.com/maps/contrib/106250433106377963509/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWTQhigbFnjerFb5WLyPzpmei8xgSyBNmoyTHDElDExfnDqoyZJ=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "a year ago",
+            "text": "We have been coming here for over 7 years. Wouldn\u2019t go anywhere else, our whole family takes their Hondas and Toyotas there. Tung is an excellent mechanic, he is timely with his turn around time, honest and affordable.",
+            "time": 1723329938,
+            "translated": false
+        },
+        {
+            "author_name": "Desiree R.",
+            "author_url": "https://www.google.com/maps/contrib/109679888253906411070/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX5CrUqGPQcCFS4NmThcwvTttlaPE_4xAH8rk_M1r1_k3fS1QYjMw=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "relative_time_description": "2 years ago",
+            "text": "Tong is the absolute best, honest mechanic I've ever known. We have taken all of our family vehicles to him for over a decade and trust him implicitly. We've recommended him to all of our neighbors who are equally as pleased. He explains exactly what has to be done, shows you any parts that he took out and provides a thorough explanation for any future issues that you should consider. My favorite thing is that if you don't need something done, he let's you know that too so that you can save money. If he can't do something he let's you know so that you can get better service elsewhere. He is outstanding!!",
+            "time": 1679285185,
+            "translated": false
+        },
+        {
+            "author_name": "Kenny Pham",
+            "author_url": "https://www.google.com/maps/contrib/108405926030470316900/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLkOydcfcwXRy71jdXlh3lBqBw2elFvPUXNKKMS-_6XkYA9WA=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "relative_time_description": "3 years ago",
+            "text": "This is a great shop to get your Import Japanese car fixed.  But he does specialize in Honda/Acura vehicles.  Very honest and runs an extremely clean shop.  He has been my main mechanic for the last few years and I am very glad to have found him at this location.  To major services, brakes and oil changes he will do them at reasonable prices.  Excellent shop that I recommend greatly!",
+            "time": 1640285288,
+            "translated": false
+        }
+    ],
+    "user_ratings_total": 29,
+    "business_type": "auto_shop"
+}

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New K&E Auto Repair - Auto Repair & Service</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="sticky-nav">
+  <div class="nav-container">
+    <span class="nav-logo">New K&E Auto Repair</span>
+    <button class="nav-toggle" onclick="toggleNav()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" onclick="closeNav()">Home</a></li>
+      <li><a href="#services" onclick="closeNav()">Services</a></li>
+      <li><a href="#about" onclick="closeNav()">About</a></li>
+      <li><a href="#gallery" onclick="closeNav()">Gallery</a></li>
+      <li><a href="#reviews" onclick="closeNav()">Reviews</a></li>
+      <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header id="home" class="hero auto-hero">
+  <h1>New K&E Auto Repair</h1>
+  <p class="tagline">Professional Auto Repair & Service</p>
+  <p>463 Blossom Hill Rd unit f, San Jose, CA 95123, USA</p>
+  <p class="phone">(408) 629-8535</p>
+</header>
+
+<section id="services" class="services">
+<h2>Our Services</h2>
+<div class="services-wrapper">
+  <div class="services-headers desktop-only">
+    <div class="service-header" onclick="toggleService('oil')">
+      <h3>Oil Changes <span class="arrow">▼</span></h3>
+    </div>
+    <div class="service-header" onclick="toggleService('brakes')">
+      <h3>Brake Repair <span class="arrow">▼</span></h3>
+    </div>
+    <div class="service-header" onclick="toggleService('diagnostics')">
+      <h3>Engine Diagnostics <span class="arrow">▼</span></h3>
+    </div>
+    <div class="service-header" onclick="toggleService('transmission')">
+      <h3>Transmission Service <span class="arrow">▼</span></h3>
+    </div>
+  </div>
+  
+  <div class="service-details desktop-details" id="oil">
+    <div class="detail-tile">
+      <h4>Conventional Oil</h4>
+      <p>Standard motor oil for everyday driving. Cost-effective option for older vehicles.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Synthetic Blend</h4>
+      <p>Mix of conventional and synthetic oils. Better protection than conventional at a moderate price.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Full Synthetic</h4>
+      <p>Premium protection with superior performance in extreme temperatures and conditions.</p>
+    </div>
+  </div>
+  
+  <div class="service-details desktop-details" id="brakes">
+    <div class="detail-tile">
+      <h4>Brake Pads</h4>
+      <p>Replacement of worn brake pads with high-quality ceramic or semi-metallic options.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Rotor Service</h4>
+      <p>Rotor resurfacing or replacement to ensure smooth, safe braking performance.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Brake Fluid</h4>
+      <p>Complete brake fluid flush to maintain optimal braking system performance.</p>
+    </div>
+  </div>
+  
+  <div class="service-details desktop-details" id="diagnostics">
+    <div class="detail-tile">
+      <h4>Computer Scan</h4>
+      <p>Advanced diagnostic tools to identify engine problems and error codes.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Performance Testing</h4>
+      <p>Comprehensive engine performance analysis to optimize power and efficiency.</p>
+    </div>
+  </div>
+  
+  <div class="service-details desktop-details" id="transmission">
+    <div class="detail-tile">
+      <h4>Fluid Change</h4>
+      <p>Regular transmission fluid replacement to ensure smooth shifting and longevity.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Filter Replacement</h4>
+      <p>Transmission filter service to maintain clean fluid circulation.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Repair Service</h4>
+      <p>Expert transmission repairs for both automatic and manual transmissions.</p>
+    </div>
+  </div>
+  
+  <div class="mobile-services">
+    <div class="service-category">
+      <div class="service-header" onclick="toggleMobileService('oil-mobile')">
+        <h3>Oil Changes <span class="arrow">▼</span></h3>
+      </div>
+      <div class="service-details" id="oil-mobile">
+        <div class="detail-tile">
+          <h4>Conventional Oil</h4>
+          <p>Standard motor oil for everyday driving. Cost-effective option for older vehicles.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Synthetic Blend</h4>
+          <p>Mix of conventional and synthetic oils. Better protection than conventional at a moderate price.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Full Synthetic</h4>
+          <p>Premium protection with superior performance in extreme temperatures and conditions.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="service-category">
+      <div class="service-header" onclick="toggleMobileService('brakes-mobile')">
+        <h3>Brake Repair <span class="arrow">▼</span></h3>
+      </div>
+      <div class="service-details" id="brakes-mobile">
+        <div class="detail-tile">
+          <h4>Brake Pads</h4>
+          <p>Replacement of worn brake pads with high-quality ceramic or semi-metallic options.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Rotor Service</h4>
+          <p>Rotor resurfacing or replacement to ensure smooth, safe braking performance.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Brake Fluid</h4>
+          <p>Complete brake fluid flush to maintain optimal braking system performance.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="service-category">
+      <div class="service-header" onclick="toggleMobileService('diagnostics-mobile')">
+        <h3>Engine Diagnostics <span class="arrow">▼</span></h3>
+      </div>
+      <div class="service-details" id="diagnostics-mobile">
+        <div class="detail-tile">
+          <h4>Computer Scan</h4>
+          <p>Advanced diagnostic tools to identify engine problems and error codes.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Performance Testing</h4>
+          <p>Comprehensive engine performance analysis to optimize power and efficiency.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="service-category">
+      <div class="service-header" onclick="toggleMobileService('transmission-mobile')">
+        <h3>Transmission Service <span class="arrow">▼</span></h3>
+      </div>
+      <div class="service-details" id="transmission-mobile">
+        <div class="detail-tile">
+          <h4>Fluid Change</h4>
+          <p>Regular transmission fluid replacement to ensure smooth shifting and longevity.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Filter Replacement</h4>
+          <p>Transmission filter service to maintain clean fluid circulation.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Repair Service</h4>
+          <p>Expert transmission repairs for both automatic and manual transmissions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="about-modal">
+<h2>About Us</h2>
+<p>At New K&E Auto Repair, we pride ourselves on providing honest, reliable service that our customers can trust. With a commitment to transparency and integrity, our experienced team ensures that you receive only the necessary repairs without the hassle of upselling. After over seven years of serving our community, we’ve built a reputation for timely turnarounds and exceptional customer care, making us the go-to choice for families and individuals alike. Come experience the difference in auto repair where quality meets service!</p>
+</div>
+</section>
+
+<section id="gallery" class="gallery">
+<h2>Our Work</h2>
+<div class="grid" id="gallery-grid">
+<img src="images/places_0.jpg"/><img src="images/places_1.jpg"/><img src="images/places_2.jpg"/><img src="images/places_3.jpg"/><img src="images/places_4.jpg"/><img src="images/places_5.jpg"/><img src="images/places_6.jpg"/><img src="images/places_7.jpg"/><img src="images/stock_3.jpg"/><img src="images/stock_2.jpg"/><img src="images/stock_0.jpg"/><img src="images/stock_1.jpg"/><img src="images/stock_5.jpg"/><img src="images/stock_4.jpg"/><img src="images/stock_6.jpg"/><img src="images/stock_7.jpg"/><img src="images/stock_8.jpg"/>
+</div>
+<button class="show-more-btn" id="showMoreBtn" onclick="toggleGallery()" style="display: none;">Show More</button>
+</section>
+
+<section id="reviews" class="reviews">
+<h2>What Customers Say About Us</h2>
+<div class="reviews-summary">
+<p>Customers love New K&E Auto Repair for its honest, reliable service and clean, welcoming environment. Many appreciate the skilled mechanics, particularly Tung, who consistently provide timely and affordable repairs without unnecessary upselling, making it a go-to choice for families over the years.</p>
+</div>
+<div class="reviews-carousel"><div class="reviews-track">
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjUM5nkAu7O2vatDthweD5lUa1IE_bm2uIBtHuKhNHaMO5q5fWBF=s128-c0x00000000-cc-rp-mo" alt="Guts" class="profile-img">
+                <div>
+                    <h3>Guts</h3>
+                    <p>⭐</p>
+                </div>
+            </div>
+            <p class="review-text">
+                <span class="review-short">Had a flat tire and had this guy work on it. Next day tire was flat again. Turns out he had patched one of the holes, but there was still another one unaccounted for. Mistakes happen I totally get it....</span>
+                <span class="review-full" style="display: none;">Had a flat tire and had this guy work on it. Next day tire was flat again. Turns out he had patched one of the holes, but there was still another one unaccounted for. Mistakes happen I totally get it.
+
+The reason why I’m writing this review though is because when I went back with my dad to see what we could do, the same guy basically shook us off and came up with excuses. Didn’t even wanna help us because it was a “waste of time”. No apology or anything. He just gave us some money back and blew us off.
+
+I went to a different place and the first thing those kind folks said about the wheel was that it was damaged, wasn’t safe to drive in, and it needed to be replaced and helped us out no problem. Lol
+
+Would have been nice if this place told us ahead of time that they don’t know how to work with tires; that way no one’s time would have been wasted.</span>
+                <button class="see-more-review" onclick="toggleReview(0)">See More</button>
+            </p>
+        </div>
+        
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWzq55psWyL2sHIaTlR2avDE4nSomD92J36JxORBzGpAVmNS2iO=s128-c0x00000000-cc-rp-mo" alt="Bethany Peri" class="profile-img">
+                <div>
+                    <h3>Bethany Peri</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p>Best mechanic I’ve ever went to. Honest and the shop is so clean. Ive recommend this place to everyone I know. Doesn’t do unnecessary work and always get in within the week. Great guy great place!!</p>
+        </div>
+        
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWTQhigbFnjerFb5WLyPzpmei8xgSyBNmoyTHDElDExfnDqoyZJ=s128-c0x00000000-cc-rp-mo" alt="Yvonne Jasso" class="profile-img">
+                <div>
+                    <h3>Yvonne Jasso</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p class="review-text">
+                <span class="review-short">We have been coming here for over 7 years. Wouldn’t go anywhere else, our whole family takes their Hondas and Toyotas there. Tung is an excellent mechanic, he is timely with his turn around time, hone...</span>
+                <span class="review-full" style="display: none;">We have been coming here for over 7 years. Wouldn’t go anywhere else, our whole family takes their Hondas and Toyotas there. Tung is an excellent mechanic, he is timely with his turn around time, honest and affordable.</span>
+                <button class="see-more-review" onclick="toggleReview(2)">See More</button>
+            </p>
+        </div>
+        
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjX5CrUqGPQcCFS4NmThcwvTttlaPE_4xAH8rk_M1r1_k3fS1QYjMw=s128-c0x00000000-cc-rp-mo-ba4" alt="Desiree R." class="profile-img">
+                <div>
+                    <h3>Desiree R.</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p class="review-text">
+                <span class="review-short">Tong is the absolute best, honest mechanic I've ever known. We have taken all of our family vehicles to him for over a decade and trust him implicitly. We've recommended him to all of our neighbors wh...</span>
+                <span class="review-full" style="display: none;">Tong is the absolute best, honest mechanic I've ever known. We have taken all of our family vehicles to him for over a decade and trust him implicitly. We've recommended him to all of our neighbors who are equally as pleased. He explains exactly what has to be done, shows you any parts that he took out and provides a thorough explanation for any future issues that you should consider. My favorite thing is that if you don't need something done, he let's you know that too so that you can save money. If he can't do something he let's you know so that you can get better service elsewhere. He is outstanding!!</span>
+                <button class="see-more-review" onclick="toggleReview(3)">See More</button>
+            </p>
+        </div>
+        
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a/ACg8ocLkOydcfcwXRy71jdXlh3lBqBw2elFvPUXNKKMS-_6XkYA9WA=s128-c0x00000000-cc-rp-mo-ba3" alt="Kenny Pham" class="profile-img">
+                <div>
+                    <h3>Kenny Pham</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p class="review-text">
+                <span class="review-short">This is a great shop to get your Import Japanese car fixed.  But he does specialize in Honda/Acura vehicles.  Very honest and runs an extremely clean shop.  He has been my main mechanic for the last f...</span>
+                <span class="review-full" style="display: none;">This is a great shop to get your Import Japanese car fixed.  But he does specialize in Honda/Acura vehicles.  Very honest and runs an extremely clean shop.  He has been my main mechanic for the last few years and I am very glad to have found him at this location.  To major services, brakes and oil changes he will do them at reasonable prices.  Excellent shop that I recommend greatly!</span>
+                <button class="see-more-review" onclick="toggleReview(4)">See More</button>
+            </p>
+        </div>
+        </div><button class="carousel-btn prev" onclick="moveCarousel(-1)">‹</button><button class="carousel-btn next" onclick="moveCarousel(1)">›</button><div class="pagination-dots"><div class="desktop-dots"><span class="dot active" onclick="goToSlide(0)"></span><span class="dot" onclick="goToSlide(1)"></span><span class="dot" onclick="goToSlide(2)"></span></div><div class="mobile-dots"><span class="dot active" onclick="goToSlide(0)"></span><span class="dot" onclick="goToSlide(1)"></span><span class="dot" onclick="goToSlide(2)"></span><span class="dot" onclick="goToSlide(3)"></span><span class="dot" onclick="goToSlide(4)"></span></div></div></div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<div class="contact-container">
+  <div class="contact-info">
+    <h3>Visit Our Shop</h3>
+    <p><strong>Address:</strong><br>463 Blossom Hill Rd unit f, San Jose, CA 95123, USA</p>
+    <p><strong>Phone:</strong> (408) 629-8535</p>
+    
+    <div class="hours">
+      <h4>Operating Hours</h4>
+      <p>Monday: 9:00 AM – 6:00 PM</p><p>Tuesday: 9:00 AM – 6:00 PM</p><p>Wednesday: 9:00 AM – 6:00 PM</p><p>Thursday: 9:00 AM – 6:00 PM</p><p>Friday: 9:00 AM – 6:00 PM</p><p>Saturday: 9:00 AM – 6:00 PM</p><p>Sunday: Closed</p>
+    </div>
+  </div>
+  <div class="contact-form">
+    <h3>Get In Touch</h3>
+    <form>
+      <div class="form-row">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+      </div>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Subject" required>
+      <textarea placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</div>
+</section>
+
+<footer>
+<p>New K&E Auto Repair © All Rights Reserved</p>
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById('navLinks').classList.toggle('active');
+}
+function closeNav() {
+  document.getElementById('navLinks').classList.remove('active');
+}
+function toggleService(serviceId) {
+  const allDetails = document.querySelectorAll('.desktop-details');
+  const allHeaders = document.querySelectorAll('.desktop-only .service-header');
+  const allArrows = document.querySelectorAll('.desktop-only .arrow');
+  
+  allDetails.forEach(detail => {
+    if (detail.id !== serviceId) {
+      detail.classList.remove('active');
+    }
+  });
+  
+  allHeaders.forEach(header => {
+    header.classList.remove('active');
+  });
+  
+  allArrows.forEach(arrow => {
+    arrow.style.transform = 'rotate(0deg)';
+  });
+  
+  const details = document.getElementById(serviceId);
+  const clickedHeader = event.target.closest('.service-header');
+  const clickedArrow = clickedHeader.querySelector('.arrow');
+  
+  details.classList.toggle('active');
+  
+  if (details.classList.contains('active')) {
+    clickedHeader.classList.add('active');
+    clickedArrow.style.transform = 'rotate(180deg)';
+  } else {
+    clickedHeader.classList.remove('active');
+    clickedArrow.style.transform = 'rotate(0deg)';
+  }
+}
+
+function toggleMobileService(serviceId) {
+  const details = document.getElementById(serviceId);
+  const clickedHeader = event.target.closest('.service-header');
+  const clickedArrow = clickedHeader.querySelector('.arrow');
+  
+  details.classList.toggle('active');
+  
+  if (details.classList.contains('active')) {
+    clickedArrow.style.transform = 'rotate(180deg)';
+  } else {
+    clickedArrow.style.transform = 'rotate(0deg)';
+  }
+}
+
+function toggleGallery() {
+  const grid = document.getElementById('gallery-grid');
+  const btn = document.getElementById('showMoreBtn');
+  
+  if (grid.classList.contains('collapsed')) {
+    grid.classList.remove('collapsed');
+    btn.textContent = 'Show Less';
+  } else {
+    grid.classList.add('collapsed');
+    btn.textContent = 'Show More';
+  }
+}
+
+function toggleReview(index) {
+  const review = document.querySelectorAll('.review')[index];
+  const shortText = review.querySelector('.review-short');
+  const fullText = review.querySelector('.review-full');
+  const button = review.querySelector('.see-more-review');
+  
+  if (fullText.style.display === 'none') {
+    shortText.style.display = 'none';
+    fullText.style.display = 'inline';
+    button.textContent = 'See Less';
+  } else {
+    shortText.style.display = 'inline';
+    fullText.style.display = 'none';
+    button.textContent = 'See More';
+  }
+}
+
+window.addEventListener('scroll', function() {
+  const nav = document.querySelector('.sticky-nav');
+  if (window.scrollY > 50) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+});
+
+let currentReview = 0;
+const totalReviews = document.querySelectorAll('.review').length;
+let startX = 0;
+let isDragging = false;
+
+function moveCarousel(direction) {
+  const isMobile = window.innerWidth <= 768;
+  const reviewsPerView = isMobile ? 1 : 3;
+  const maxIndex = Math.max(0, totalReviews - reviewsPerView);
+  
+  currentReview += direction;
+  if (currentReview < 0) currentReview = maxIndex;
+  if (currentReview > maxIndex) currentReview = 0;
+  
+  const track = document.querySelector('.reviews-track');
+  const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+  track.style.transform = `translateX(-${movePercent}%)`;
+  
+  updatePaginationDots();
+}
+
+function goToSlide(index) {
+  const isMobile = window.innerWidth <= 768;
+  const reviewsPerView = isMobile ? 1 : 3;
+  const maxIndex = Math.max(0, totalReviews - reviewsPerView);
+  
+  currentReview = Math.min(index, maxIndex);
+  
+  const track = document.querySelector('.reviews-track');
+  const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+  track.style.transform = `translateX(-${movePercent}%)`;
+  
+  updatePaginationDots();
+}
+
+function updatePaginationDots() {
+  const isMobile = window.innerWidth <= 768;
+  const dotsContainer = isMobile ? '.mobile-dots' : '.desktop-dots';
+  const dots = document.querySelectorAll(`${dotsContainer} .dot`);
+  dots.forEach((dot, index) => {
+    dot.classList.toggle('active', index === currentReview);
+  });
+}
+
+// Touch/swipe support with real-time movement
+const carousel = document.querySelector('.reviews-carousel');
+const track = document.querySelector('.reviews-track');
+
+if (carousel && track) {
+  // Touch events
+  carousel.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+    isDragging = true;
+    track.style.transition = 'none';
+  });
+  
+  carousel.addEventListener('touchmove', e => {
+    if (!isDragging) return;
+    const currentX = e.touches[0].clientX;
+    const diff = currentX - startX;
+    const isMobile = window.innerWidth <= 768;
+    const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+    track.style.transform = `translateX(${-movePercent + (diff * 0.1)}%)`;
+  });
+  
+  carousel.addEventListener('touchend', e => {
+    if (!isDragging) return;
+    const endX = e.changedTouches[0].clientX;
+    const diff = startX - endX;
+    
+    track.style.transition = 'transform 0.3s ease';
+    if (Math.abs(diff) > 50) {
+      moveCarousel(diff > 0 ? 1 : -1);
+    } else {
+      const isMobile = window.innerWidth <= 768;
+      const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+      track.style.transform = `translateX(-${movePercent}%)`;
+    }
+    isDragging = false;
+  });
+  
+  // Mouse events
+  carousel.addEventListener('mousedown', e => {
+    startX = e.clientX;
+    isDragging = true;
+    track.style.transition = 'none';
+    e.preventDefault();
+  });
+  
+  carousel.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    const currentX = e.clientX;
+    const diff = currentX - startX;
+    const isMobile = window.innerWidth <= 768;
+    const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+    track.style.transform = `translateX(${-movePercent + (diff * 0.1)}%)`;
+  });
+  
+  carousel.addEventListener('mouseup', e => {
+    if (!isDragging) return;
+    const diff = startX - e.clientX;
+    
+    track.style.transition = 'transform 0.3s ease';
+    if (Math.abs(diff) > 50) {
+      moveCarousel(diff > 0 ? 1 : -1);
+    } else {
+      const isMobile = window.innerWidth <= 768;
+      const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+      track.style.transform = `translateX(-${movePercent}%)`;
+    }
+    isDragging = false;
+  });
+}
+
+window.addEventListener('load', function() {
+  if (window.innerWidth <= 768) {
+    const grid = document.getElementById('gallery-grid');
+    const btn = document.getElementById('showMoreBtn');
+    const images = grid.querySelectorAll('img');
+    
+    if (images.length > 2) {
+      grid.classList.add('collapsed');
+      btn.style.display = 'block';
+    }
+  }
+});
+</script>
+
+</body>
+</html>
